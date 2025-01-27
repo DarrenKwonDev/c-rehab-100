@@ -25,7 +25,8 @@ char* my_strcat(char *str1, char *str2)
 
   // result 시작에서부터 str1의 문자 크기 이상을 가리키는 지점
   // ptr에 쓰고 result를 반환해도 정상적으로 합쳐진 문자열이 반환됨.
-  // 그런데 이건 안티 패턴임! 이런 식으로 작성하지 말아라.
+  // 그런데 이건 안티 패턴임!
+  // 이런 식으로 작성하지 말아라.
 
   char* ptr = result + strlen(str1); // str1 다음 만큼 ptr offset 이동
   while(*str2 != '\0') // 밑의 *str2++ 에 의해 다음 포인터에 의해 이동되었으므로 문자 검사임.
