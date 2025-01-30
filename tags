@@ -20,11 +20,15 @@
 !_TAG_KIND_DESCRIPTION!C	t,typedef	/typedefs/
 !_TAG_KIND_DESCRIPTION!C	u,union	/union names/
 !_TAG_KIND_DESCRIPTION!C	v,variable	/variable definitions/
+!_TAG_KIND_DESCRIPTION!Make	I,makefile	/makefiles/
+!_TAG_KIND_DESCRIPTION!Make	m,macro	/macros/
+!_TAG_KIND_DESCRIPTION!Make	t,target	/targets/
 !_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_OUTPUT_VERSION	0.0	/current.age/
 !_TAG_PARSER_VERSION!C	0.0	/current.age/
+!_TAG_PARSER_VERSION!Make	0.0	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 !_TAG_PROC_CWD	/home/server01/c100_tutorial/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
@@ -34,4 +38,154 @@
 !_TAG_ROLE_DESCRIPTION!C!header	local	/local header/
 !_TAG_ROLE_DESCRIPTION!C!header	system	/system header/
 !_TAG_ROLE_DESCRIPTION!C!macro	undef	/undefined/
+!_TAG_ROLE_DESCRIPTION!Make!makefile	included	/included/
+!_TAG_ROLE_DESCRIPTION!Make!makefile	optional	/optionally included/
+CARDS	a005_playingCards.c	/^#define CARDS /;"	d	file:
+CIRCLE	a053_structAndUnion.c	/^enum FigureType { CIRCLE, TRIANGLE, RECTANGLE };$/;"	e	enum:FigureType	file:
+CLOVER	a005_playingCards.c	/^#define CLOVER /;"	d	file:
+CNT	a004_nonOverlappingRandom.c	/^#define CNT /;"	d	file:
+COUNT	a053_structAndUnion.c	/^#define COUNT /;"	d	file:
+DIAMOND	a005_playingCards.c	/^#define DIAMOND /;"	d	file:
+DOUBLE	a043_void_pointer.c	/^#define DOUBLE /;"	d	file:
+FLOAT	a043_void_pointer.c	/^#define FLOAT /;"	d	file:
+FLOAT	a044_sum_of_array.c	/^#define FLOAT /;"	d	file:
+FigureType	a053_structAndUnion.c	/^enum FigureType { CIRCLE, TRIANGLE, RECTANGLE };$/;"	g	file:
+Grande	a008_enum.c	/^enum Size {Short, Tall, Grande, Venti};$/;"	e	enum:Size	file:
+HEART	a005_playingCards.c	/^#define HEART /;"	d	file:
+INT	a043_void_pointer.c	/^#define INT /;"	d	file:
+INT	a044_sum_of_array.c	/^#define INT /;"	d	file:
+MAXPOS	a052_closestPair.c	/^#define MAXPOS /;"	d	file:
+MAXVAL	a047_stack.c	/^#define MAXVAL /;"	d	file:
+MINUS	a026_atof.c	/^#define MINUS /;"	d	file:
+N	a011_sieveOfEratosthenes.c	/^#define N /;"	d	file:
+PLUS	a026_atof.c	/^#define PLUS /;"	d	file:
+POINTS	a052_closestPair.c	/^#define POINTS /;"	d	file:
+RECTANGLE	a053_structAndUnion.c	/^enum FigureType { CIRCLE, TRIANGLE, RECTANGLE };$/;"	e	enum:FigureType	file:
+SIZE	a029_dec_to_bin.c	/^#define SIZE /;"	d	file:
+SPADE	a005_playingCards.c	/^#define SPADE /;"	d	file:
+Short	a008_enum.c	/^enum Size {Short, Tall, Grande, Venti};$/;"	e	enum:Size	file:
+Size	a008_enum.c	/^enum Size {Short, Tall, Grande, Venti};$/;"	g	file:
+TRAIALS	a003_craps.c	/^#define TRAIALS /;"	d	file:
+TRIANGLE	a053_structAndUnion.c	/^enum FigureType { CIRCLE, TRIANGLE, RECTANGLE };$/;"	e	enum:FigureType	file:
+Tall	a008_enum.c	/^enum Size {Short, Tall, Grande, Venti};$/;"	e	enum:Size	file:
+Venti	a008_enum.c	/^enum Size {Short, Tall, Grande, Venti};$/;"	e	enum:Size	file:
+__anon59d812ef010a	a053_structAndUnion.c	/^    union {$/;"	u	struct:figure	file:
+add	a043_void_pointer.c	/^void* add(void* a, void* b, void* result, int type)$/;"	f	typeref:typename:void *
+add	a045_function_pointer.c	/^int add(int a, int b)$/;"	f	typeref:typename:int
+add	a046_calculator.c	/^float add(float a, float b)$/;"	f	typeref:typename:float
+add3	a017_arrayAndPointer.c	/^int add3(int *p)$/;"	f	typeref:typename:int
+area	a050_structure.c	/^double area(struct rectangle r)$/;"	f	typeref:typename:double
+area	a053_structAndUnion.c	/^float area(struct figure* f)$/;"	f	typeref:typename:float
+array_d2b	a029_dec_to_bin.c	/^void array_d2b(int n)$/;"	f	typeref:typename:void
+binary_to_decimal	a027_binary_to_decimal.c	/^int binary_to_decimal(long long n)$/;"	f	typeref:typename:int
+checkOverflow	a029_dec_to_bin.c	/^int checkOverflow(char buffer[]) {$/;"	f	typeref:typename:int
+checkTriangle	a053_structAndUnion.c	/^bool checkTriangle(struct figure fig)$/;"	f	typeref:typename:bool
+closestPair	a052_closestPair.c	/^pointPair closestPair()$/;"	f	typeref:typename:pointPair
+decimal_to_binary	a028_decimal_to_binary.c	/^long long decimal_to_binary(int dec)$/;"	f	typeref:typename:long long
+dept	a051_structure.c	/^    char dept[20];$/;"	m	struct:student	typeref:typename:char[20]	file:
+dist	a052_closestPair.c	/^    double dist;$/;"	m	struct:pointPair	typeref:typename:double	file:
+dist	a052_closestPair.c	/^double dist(point p1, point p2)$/;"	f	typeref:typename:double
+distance	a050_structure.c	/^double distance(struct point p1, struct point p2)$/;"	f	typeref:typename:double
+divide	a046_calculator.c	/^float divide(float a, float b)$/;"	f	typeref:typename:float
+figure	a053_structAndUnion.c	/^struct figure {$/;"	s	file:
+gcd	a031_gcdlcm.c	/^int gcd(int a, int b)$/;"	f	typeref:typename:int
+hanoi_tower	a030_hanoi_tower.c	/^void hanoi_tower(int n, char from, char to, char via)$/;"	f	typeref:typename:void
+hello	a045_function_pointer.c	/^void hello()$/;"	f	typeref:typename:void
+id	a051_structure.c	/^    int id;$/;"	m	struct:student	typeref:typename:int	file:
+isPowerOfTen	a007_monteCarloPi.c	/^bool isPowerOfTen(int x)$/;"	f	typeref:typename:bool
 main	a001_array.c	/^int main(int argc, char* argv[]) {$/;"	f	typeref:typename:int
+main	a002_random.c	/^int main() {$/;"	f	typeref:typename:int
+main	a003_craps.c	/^int main() {$/;"	f	typeref:typename:int
+main	a004_nonOverlappingRandom.c	/^int main()$/;"	f	typeref:typename:int
+main	a005_playingCards.c	/^int main()$/;"	f	typeref:typename:int
+main	a006_findingPi.c	/^int main()$/;"	f	typeref:typename:int
+main	a007_monteCarloPi.c	/^int main()$/;"	f	typeref:typename:int
+main	a008_enum.c	/^int main()$/;"	f	typeref:typename:int
+main	a009_pyramid.c	/^int main() {$/;"	f	typeref:typename:int
+main	a010_primeNumber.c	/^int main()$/;"	f	typeref:typename:int
+main	a011_sieveOfEratosthenes.c	/^int main()$/;"	f	typeref:typename:int
+main	a012_scanf.c	/^int main()$/;"	f	typeref:typename:int
+main	a013_charArray.c	/^int main()$/;"	f	typeref:typename:int
+main	a014_arrayOfCharArray.c	/^int main()$/;"	f	typeref:typename:int
+main	a015_pointer.c	/^int main()$/;"	f	typeref:typename:int
+main	a016_callby.c	/^int main()$/;"	f	typeref:typename:int
+main	a017_arrayAndPointer.c	/^int main()$/;"	f	typeref:typename:int
+main	a018_pointerOperation.c	/^int main()$/;"	f	typeref:typename:int
+main	a019_pointerArray.c	/^int main()$/;"	f	typeref:typename:int
+main	a020_strlen_strcmp.c	/^int main()$/;"	f	typeref:typename:int
+main	a021_strcpy_strcat.c	/^int main()$/;"	f	typeref:typename:int
+main	a022_upper_lower.c	/^int main()$/;"	f	typeref:typename:int
+main	a023_reverse.c	/^int main()$/;"	f	typeref:typename:int
+main	a024_atoi.c	/^int main()$/;"	f	typeref:typename:int
+main	a025_strstr.c	/^int main()$/;"	f	typeref:typename:int
+main	a026_atof.c	/^int main()$/;"	f	typeref:typename:int
+main	a027_binary_to_decimal.c	/^int main()$/;"	f	typeref:typename:int
+main	a028_decimal_to_binary.c	/^int main()$/;"	f	typeref:typename:int
+main	a029_dec_to_bin.c	/^int main()$/;"	f	typeref:typename:int
+main	a030_hanoi_tower.c	/^int main()$/;"	f	typeref:typename:int
+main	a031_gcdlcm.c	/^int main()$/;"	f	typeref:typename:int
+main	a032_runTime.c	/^int main()$/;"	f	typeref:typename:int
+main	a043_void_pointer.c	/^int main()$/;"	f	typeref:typename:int
+main	a044_sum_of_array.c	/^int main()$/;"	f	typeref:typename:int
+main	a045_function_pointer.c	/^int main()$/;"	f	typeref:typename:int
+main	a046_calculator.c	/^int main()$/;"	f	typeref:typename:int
+main	a047_stack.c	/^int main()$/;"	f	typeref:typename:int
+main	a050_structure.c	/^int main()$/;"	f	typeref:typename:int
+main	a051_structure.c	/^int main()$/;"	f	typeref:typename:int
+main	a052_closestPair.c	/^int main()$/;"	f	typeref:typename:int
+main	a053_structAndUnion.c	/^int main()$/;"	f	typeref:typename:int
+makePair	a052_closestPair.c	/^pointPair makePair(point p1, point p2)$/;"	f	typeref:typename:pointPair
+mersenne	a030_hanoi_tower.c	/^double mersenne(int i)$/;"	f	typeref:typename:double
+multiply	a046_calculator.c	/^float multiply(float a, float b)$/;"	f	typeref:typename:float
+my_atof	a026_atof.c	/^double my_atof(char* s)$/;"	f	typeref:typename:double
+my_atoi	a024_atoi.c	/^int my_atoi(const char *s)$/;"	f	typeref:typename:int
+my_itoa	a024_atoi.c	/^char* my_itoa(int v)$/;"	f	typeref:typename:char *
+my_reverse	a023_reverse.c	/^char* my_reverse(char* s)$/;"	f	typeref:typename:char *
+my_strcat	a021_strcpy_strcat.c	/^char* my_strcat(char *str1, char *str2)$/;"	f	typeref:typename:char *
+my_strcmp	a020_strlen_strcmp.c	/^int my_strcmp(const char *s, const char *t)$/;"	f	typeref:typename:int
+my_strcpy	a021_strcpy_strcat.c	/^char* my_strcpy(char *dest, char *source)$/;"	f	typeref:typename:char *
+my_strlen	a020_strlen_strcmp.c	/^size_t my_strlen(const char* s)$/;"	f	typeref:typename:size_t
+my_strlen2	a020_strlen_strcmp.c	/^size_t my_strlen2(const char* s)$/;"	f	typeref:typename:size_t
+my_strstr	a025_strstr.c	/^char* my_strstr(const char *str, const char *sub)$/;"	f	typeref:typename:char *
+name	a051_structure.c	/^    char name[20];$/;"	m	struct:student	typeref:typename:char[20]	file:
+p	a052_closestPair.c	/^point p[POINTS]; \/\/ 포인트 배열$/;"	v	typeref:typename:point[]
+p1	a050_structure.c	/^  struct point p1;$/;"	m	struct:rectangle	typeref:struct:point	file:
+p1	a052_closestPair.c	/^    point p1;$/;"	m	struct:pointPair	typeref:typename:point	file:
+p2	a050_structure.c	/^  struct point p2;$/;"	m	struct:rectangle	typeref:struct:point	file:
+p2	a052_closestPair.c	/^    point p2;$/;"	m	struct:pointPair	typeref:typename:point	file:
+phone	a051_structure.c	/^    char phone[20];$/;"	m	struct:student	typeref:typename:char[20]	file:
+point	a050_structure.c	/^struct point$/;"	s	file:
+point	a052_closestPair.c	/^typedef struct point$/;"	s	file:
+point	a052_closestPair.c	/^} point;$/;"	t	typeref:struct:point	file:
+pointPair	a052_closestPair.c	/^typedef struct pointPair$/;"	s	file:
+pointPair	a052_closestPair.c	/^} pointPair;$/;"	t	typeref:struct:pointPair	file:
+pop	a047_stack.c	/^int pop()$/;"	f	typeref:typename:int
+priceAmericano	a008_enum.c	/^int priceAmericano[] = {3800, 4100, 4600, 5100};$/;"	v	typeref:typename:int[]
+priceCappuccino	a008_enum.c	/^int priceCappuccino[] = {4600, 5900, 6400, 6900};$/;"	v	typeref:typename:int[]
+printFigure	a053_structAndUnion.c	/^void printFigure(struct figure* f)$/;"	f	typeref:typename:void
+printInfo	a051_structure.c	/^void printInfo(struct student *s)$/;"	f	typeref:typename:void
+printStack	a047_stack.c	/^void printStack()$/;"	f	typeref:typename:void
+push	a047_stack.c	/^void push(int v)$/;"	f	typeref:typename:void
+radius	a053_structAndUnion.c	/^        int radius;        \/\/ 반지름$/;"	m	union:figure::__anon59d812ef010a	typeref:typename:int	file:
+rect_sides	a053_structAndUnion.c	/^        int rect_sides[2]; \/\/ 가로 세로$/;"	m	union:figure::__anon59d812ef010a	typeref:typename:int[2]	file:
+rectangle	a050_structure.c	/^struct rectangle$/;"	s	file:
+recursive_d2b	a029_dec_to_bin.c	/^void recursive_d2b(int n)$/;"	f	typeref:typename:void
+sizeName	a008_enum.c	/^char sizeName[][7] = {"Short", "Tall", "Grande", "Venti"}; \/\/ array of [7]$/;"	v	typeref:typename:char[][7]
+sp	a047_stack.c	/^int sp = 0;         \/\/ stack pointer$/;"	v	typeref:typename:int
+stack	a047_stack.c	/^int stack[MAXVAL];  \/\/ stack$/;"	v	typeref:typename:int[]
+str	a025_strstr.c	/^char str[] = "ababacabcaab";$/;"	v	typeref:typename:char[]
+student	a051_structure.c	/^struct student {$/;"	s	file:
+sub	a025_strstr.c	/^char sub[] = "abc";$/;"	v	typeref:typename:char[]
+substract	a046_calculator.c	/^float substract(float a, float b)$/;"	f	typeref:typename:float
+sum_of_array	a044_sum_of_array.c	/^void sum_of_array(void* p, int length, void* result, int type)$/;"	f	typeref:typename:void
+swap	a016_callby.c	/^void swap(int x, int y)$/;"	f	typeref:typename:void
+swap2	a016_callby.c	/^void swap2(int* px, int* py)$/;"	f	typeref:typename:void
+to_lower	a022_upper_lower.c	/^char* to_lower(char* s)$/;"	f	typeref:typename:char *
+to_upper	a022_upper_lower.c	/^char* to_upper(char* s)$/;"	f	typeref:typename:char *
+tri_sides	a053_structAndUnion.c	/^        int tri_sides[3];  \/\/ 세변의 길이$/;"	m	union:figure::__anon59d812ef010a	typeref:typename:int[3]	file:
+type	a053_structAndUnion.c	/^    enum FigureType type;$/;"	m	struct:figure	typeref:enum:FigureType	file:
+x	a050_structure.c	/^  int x;$/;"	m	struct:point	typeref:typename:int	file:
+x	a052_closestPair.c	/^    int x;$/;"	m	struct:point	typeref:typename:int	file:
+y	a050_structure.c	/^  int y;$/;"	m	struct:point	typeref:typename:int	file:
+y	a052_closestPair.c	/^    int y;$/;"	m	struct:point	typeref:typename:int	file:
+year	a051_structure.c	/^    int year;$/;"	m	struct:student	typeref:typename:int	file:
